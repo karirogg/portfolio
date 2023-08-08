@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Josefin Sans Bold";
+  src: url(../styles/fonts/Josefin_Sans/static/JosefinSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  src: url(../styles/fonts/Josefin_Sans/static/JosefinSans-Regular.ttf);
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
